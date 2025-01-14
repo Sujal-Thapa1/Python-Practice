@@ -1,5 +1,9 @@
 
 def calculator():
+    """
+    The function `calculator` takes two user input numbers and performs addition, subtraction,
+    multiplication, or division based on the user's choice.
+    """
     a=int(input("Enter the 1st number"))
     b=int(input("Enter the 2nd number"))
     print("Choose an Operation")
